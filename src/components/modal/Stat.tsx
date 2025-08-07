@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { motion, useMotionValue, useTransform, animate } from "framer-motion";
 import { useEffect, useState } from "react";
 
@@ -8,7 +9,11 @@ const stats = [
   { label: "Design Campaigns", value: 50 },
 ];
 
-const Counter = ({ to }) => {
+interface CounterProps {
+  to: number;
+}
+
+const Counter = ({ to }: CounterProps) => {
   const count = useMotionValue(0);
   const rounded = useTransform(count, latest => Math.floor(latest));
   const [display, setDisplay] = useState(0);
@@ -31,6 +36,7 @@ const Counter = ({ to }) => {
 
   return <span>{display}+</span>;
 };
+
 
 const Stats = () => {
   return (

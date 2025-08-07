@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import { CiInstagram } from "react-icons/ci";
-import { FaLinkedin, FaXTwitter, FaWhatsapp } from "react-icons/fa6";
+import { FaPinterestSquare } from "react-icons/fa";
+import { FaLinkedin, FaXTwitter, FaWhatsapp, FaInstagram } from "react-icons/fa6";
 
-const name = "Asikuzzaman Rukon";
+const name = "Asikuzzaman Rokon";
 
 const letterVariants = {
   hidden: { opacity: 0, y: `0.25em` },
@@ -59,13 +59,16 @@ const Banner = () => {
             <FaLinkedin />
           </a>
           <a href="https://www.instagram.com/ashikuzzaman.rokon/" target="_blank" rel="noreferrer">
-            <CiInstagram />
+            <FaInstagram />
           </a>
           <a href="https://x.com/ArAshikuzzaman" target="_blank" rel="noreferrer">
             <FaXTwitter  />
           </a>
           <a href="https://wa.me/8801615721240?text=Hello%20I%20am%20interested%20in%20your%20services" target="_blank" rel="noreferrer">
            <FaWhatsapp />
+          </a>
+          <a href="https://www.pinterest.com/aashikuzzamanrokon/" target="_blank" rel="noreferrer">
+           <FaPinterestSquare />
           </a>
         </div>
       </motion.div>

@@ -2,22 +2,26 @@ import { motion } from "framer-motion";
 import { FaAd } from "react-icons/fa";
 import {
     FaChartLine,
-  FaFigma,
   FaGooglePlusG,
-  FaMailchimp,
-  FaPenNib,
+    FaPenNib,
+  FaYoutube,
 } from "react-icons/fa6";
-import { SiAdobe, SiCanva } from "react-icons/si";
+import { MdOutlineSocialDistance } from "react-icons/md";
+import { SiAdobe, SiAdobeillustrator, SiCanva, SiCoinmarketcap } from "react-icons/si";
 
 const skills = [
-   { name: "Figma", icon: <FaFigma size={28} /> },
+   { name: "Digital Marketing", icon: <SiCoinmarketcap size={28} /> },
+   { name: "YouTube SEO", icon: <FaYoutube size={28} /> },
+   { name: "Marketing Strategy", icon: <FaChartLine size={28} /> },
+   { name: "Social Media Management", icon: <MdOutlineSocialDistance size={28} /> },
+   { name: "Adobe Illustrator", icon: <SiAdobeillustrator size={28}/> },
   { name: "Canva", icon: <SiCanva size={28} /> },
   { name: "Adobe XD", icon: <SiAdobe size={28} /> },
   { name: "Photoshop", icon: <FaPenNib size={28} /> },
   { name: "Google Analytics", icon: <FaGooglePlusG size={28} /> },
   { name: "Meta Ads", icon: <FaAd size={28} /> },
-  { name: "Mailchimp", icon: <FaMailchimp size={28} /> },
-  { name: "Marketing Strategy", icon: <FaChartLine size={28} /> },
+  
+  
 ];
 
 const Skills = () => {

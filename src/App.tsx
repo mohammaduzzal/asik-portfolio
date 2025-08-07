@@ -6,6 +6,7 @@ import Contact from "./components/modal/Contact"
 import Portfolio from "./components/modal/Portfolio"
 import Services from "./components/modal/Services"
 import Skills from "./components/modal/Skills"
+import Slider from "./components/modal/Slider"
 import Stats from "./components/modal/Stat"
 import Testimonials from "./components/modal/Testimonial"
 
@@ -17,10 +18,8 @@ function App() {
 
   return (
     <>
-      
-   <Navbar/>
-   <div className='min-h-[calc(100vh-243px)]'>
     <Banner/>
+    <Slider/>
     <Stats/>
     <About/>
     <Skills/>
@@ -28,8 +27,7 @@ function App() {
     <Portfolio/>
     <Testimonials/>
     <Contact/>
-   </div>
-   <Footer/>
+   
     </>
   )
 }

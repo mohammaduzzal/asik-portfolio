@@ -1,11 +1,11 @@
-import { motion } from "framer-motion";
+import { motion, easeOut } from "framer-motion";
 
 const formVariant = {
   hidden: { opacity: 0, y: 40 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.7, ease: "easeOut" },
+    transition: { duration: 0.7, ease: easeOut },
   },
 };
 
@@ -56,7 +56,7 @@ const Contact = () => {
 
         <textarea
           name="message"
-          rows="5"
+          rows={5}
           placeholder="Your Message"
           className="w-full border border-gray-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2"
           required

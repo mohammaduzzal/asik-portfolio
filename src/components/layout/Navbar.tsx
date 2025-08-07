@@ -9,8 +9,11 @@ export default function Navbar() {
     <li><NavLink to='/' className="hover:text-green-500">Home</NavLink></li>
     <li><a href="#about" className="hover:text-green-500">About</a></li>
     <li><a href="#services" className="hover:text-green-500">Services</a></li>
-    <li><a href="#portfolio" className="hover:text-green-500">Portfolio</a></li>
+    <li><NavLink to="/portfolio" className="hover:text-green-500">Portfolio</NavLink></li>
+    <li><NavLink to="/team" className="hover:text-green-500">Our Team</NavLink></li>
     <li><a href="#contact" className="hover:text-green-500">Contact</a></li>
+    <li><NavLink to="/work" className="hover:text-green-500">Our Work Process</NavLink></li>
+    <li><a href="https://calendly.com/ashikuzzamaan-rokon/45min?month=2025-08" className="hover:text-green-500">Meet</a></li>
 
 
   </>
