@@ -127,8 +127,8 @@ const Work = () => {
             <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
 
             <div className="mb-4">
-              <h4 className="font-medium text-gray-700">What We Offer:</h4>
-              <ul className="list-disc ml-5 text-sm text-gray-600 mt-1">
+              <h4 className="font-medium">What We Offer:</h4>
+              <ul className="list-disc ml-5 text-sm mt-1">
                 {service.offer.map((item, i) => (
                   <li key={i}>{item}</li>
                 ))}
@@ -137,14 +137,14 @@ const Work = () => {
 
             <div className="mb-4">
               <h4 className="font-medium text-gray-700">How We Work:</h4>
-              <p className="text-sm text-gray-600 mt-1">
+              <p className="text-sm mt-1">
                 {service.process.join(" → ")}
               </p>
             </div>
 
             <div>
               <h4 className="font-medium text-gray-700">Tips & Insights:</h4>
-              <ul className="list-disc ml-5 text-sm text-gray-600 mt-1">
+              <ul className="list-disc ml-5 text-sm mt-1">
                 {service.tips.map((tip, i) => (
                   <li key={i}>{tip}</li>
                 ))}
