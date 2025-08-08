@@ -53,7 +53,7 @@ const Banner = () => {
             </motion.span>
           ))}
         </h1>
-        <p className="text-lg md:text-xl mt-2">Digital Marketer & Creative Designer</p>
+        <p className="text-lg md:text-xl mt-2">Digital Marketer & YouTube SEO Expert</p>
         <div className="flex justify-center md:justify-start gap-5 mt-4 text-2xl">
           <a href="https://www.linkedin.com/in/md-ashikuzzaman-rokon-b72a41253/" target="_blank" rel="noreferrer">
             <FaLinkedin />

@@ -13,7 +13,7 @@ export default function Navbar() {
     <li><NavLink to="/team" className="hover:text-green-500">Our Team</NavLink></li>
     <li><a href="#contact" className="hover:text-green-500">Contact</a></li>
     <li><NavLink to="/work" className="hover:text-green-500">Our Work Process</NavLink></li>
-    <li><a href="https://calendly.com/ashikuzzamaan-rokon/45min?month=2025-08" className="hover:text-green-500">Meet</a></li>
+    <li><a href="https://calendly.com/ashikuzzamaan-rokon/45min?month=2025-08" className="hover:text-green-500">Fixed a Meeting</a></li>
 
 
   </>
@@ -54,7 +54,7 @@ export default function Navbar() {
         <div className="ml-1 hidden md:inline-block p-[2px] rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
           <a
             href="#contact"
-            className="block px-5 py-2 rounded-full bg-white dark:bg-black font-medium hover:shadow transition"
+            className="block px-3 py-1 rounded-full bg-white dark:bg-black font-medium hover:shadow transition"
           >
             Hire Me
           </a>

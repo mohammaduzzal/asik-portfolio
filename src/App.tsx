@@ -1,9 +1,6 @@
-import Footer from "./components/layout/Footer"
-import Navbar from "./components/layout/Navbar"
 import About from "./components/modal/About"
 import Banner from "./components/modal/Banner"
 import Contact from "./components/modal/Contact"
-import Portfolio from "./components/modal/Portfolio"
 import Services from "./components/modal/Services"
 import Skills from "./components/modal/Skills"
 import Slider from "./components/modal/Slider"
@@ -24,7 +21,6 @@ function App() {
     <About/>
     <Skills/>
     <Services/>
-    <Portfolio/>
     <Testimonials/>
     <Contact/>
    

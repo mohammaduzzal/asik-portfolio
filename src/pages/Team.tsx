@@ -70,8 +70,8 @@ const Team = () => {
           className="w-24 h-24 mx-auto rounded-full object-cover mb-4"
         />
         <h3 className="text-xl font-semibold mb-1">{teamHead.name}</h3>
-        <p className="text-sm text-gray-600 mb-4">{teamHead.role}</p>
-        <p className="text-sm text-gray-600 mb-4">{teamHead.des}</p>
+        <p className="text-sm mb-4">{teamHead.role}</p>
+        <p className="text-sm mb-4">{teamHead.des}</p>
       </motion.div>
 
       {/* Other Members in Grid */}
@@ -92,8 +92,8 @@ const Team = () => {
               className="w-20 h-20 mx-auto rounded-full object-fill mb-4"
             />
             <h3 className="text-xl font-semibold mb-1">{member.name}</h3>
-            <p className="text-sm text-gray-600 mb-4">{member.role}</p>
-            <p className="text-sm text-gray-600 mb-4">{member.des}</p>
+            <p className="text-sm  mb-4">{member.role}</p>
+            <p className="text-sm  mb-4">{member.des}</p>
           </motion.div>
         ))}
       </div>
