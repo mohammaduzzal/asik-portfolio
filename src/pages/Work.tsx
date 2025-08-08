@@ -136,14 +136,14 @@ const Work = () => {
             </div>
 
             <div className="mb-4">
-              <h4 className="font-medium text-gray-700">How We Work:</h4>
+              <h4 className="font-medium">How We Work:</h4>
               <p className="text-sm mt-1">
                 {service.process.join(" → ")}
               </p>
             </div>
 
             <div>
-              <h4 className="font-medium text-gray-700">Tips & Insights:</h4>
+              <h4 className="font-medium">Tips & Insights:</h4>
               <ul className="list-disc ml-5 text-sm mt-1">
                 {service.tips.map((tip, i) => (
                   <li key={i}>{tip}</li>
