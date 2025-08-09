@@ -57,7 +57,7 @@ const Services = () => {
         transition={{ duration: 0.7 }}
         className="text-center mb-12"
       >
-        <h2 className="text-3xl md:text-4xl font-bold">🛠️ My Services</h2>
+        <h2 className="text-3xl md:text-4xl font-bold">Services</h2>
         <p className="mt-4 max-w-2xl mx-auto text-base md:text-lg">
           I help businesses grow through creativity, strategy, and performance. Here's what I offer:
         </p>

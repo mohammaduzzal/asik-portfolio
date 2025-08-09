@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { FaPinterestSquare } from "react-icons/fa";
 import { FaLinkedin, FaXTwitter, FaWhatsapp, FaInstagram } from "react-icons/fa6";
+import { Button } from "../ui/button";
 
 const name = "Asikuzzaman Rokon";
 
@@ -54,6 +55,7 @@ const Banner = () => {
           ))}
         </h1>
         <p className="text-lg md:text-xl mt-2">Digital Marketer & YouTube SEO Expert</p>
+        <a href="https://drive.google.com/file/d/1kz82sbISdyjOmg7fLbdzK_4aj6yu40_X/view"><Button className="my-1">Resume</Button></a>
         <div className="flex justify-center md:justify-start gap-5 mt-4 text-2xl">
           <a href="https://www.linkedin.com/in/md-ashikuzzaman-rokon-b72a41253/" target="_blank" rel="noreferrer">
             <FaLinkedin />

@@ -19,7 +19,7 @@ const Contact = () => {
         variants={formVariant}
         className="text-center mb-12"
       >
-        <h2 className="text-3xl md:text-4xl font-bold">📬 Contact Me</h2>
+        <h2 className="text-3xl md:text-4xl font-bold"> Contact</h2>
         <p className="mt-4 text-base md:text-lg max-w-xl mx-auto">
           Have a project in mind or just want to say hi? Let’s connect.
         </p>

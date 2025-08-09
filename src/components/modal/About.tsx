@@ -23,7 +23,7 @@ const About = () => {
         className="space-y-6 text-center md:text-left"
       >
         <motion.h2 className="text-3xl md:text-4xl font-bold text-center">
-           About Me
+           About
         </motion.h2>
 
         <motion.p className="text-base text-center md:text-lg leading-relaxed">
@@ -35,7 +35,7 @@ const About = () => {
         </motion.p>
 
         <motion.p className="text-base text-center md:text-lg leading-relaxed">
-         Over the years, I’ve successfully completed 400+ projects across various industries, working with both startups and established brands from around the world. From designing brand identities to managing targeted YouTube growth campaigns, I ensure every project delivers measurable results.
+         Over the years, I’ve successfully completed 100+ projects across various industries, working with both startups and established brands from around the world. From designing brand identities to managing targeted YouTube growth campaigns, I ensure every project delivers measurable results.
         </motion.p>
         <motion.p className="text-base text-center md:text-lg leading-relaxed">
          If you're looking for someone who values professionalism, creativity, and results, and knows how to grow your brand effectively in the digital space.
